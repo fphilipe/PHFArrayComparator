@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5EB3097161EC555002A24FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EB3096161EC555002A24FE /* UIKit.framework */; };
+		D5EB3099161EC555002A24FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EB3098161EC555002A24FE /* Foundation.framework */; };
+		D5EB309B161EC555002A24FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EB309A161EC555002A24FE /* CoreGraphics.framework */; };
+		D5EB30A1161EC555002A24FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5EB309F161EC555002A24FE /* InfoPlist.strings */; };
+		D5EB30A3161EC555002A24FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EB30A2161EC555002A24FE /* main.m */; };
+		D5EB30A7161EC555002A24FE /* PHFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EB30A6161EC555002A24FE /* PHFAppDelegate.m */; };
+		D5EB30A9161EC555002A24FE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D5EB30A8161EC555002A24FE /* Default.png */; };
+		D5EB30AB161EC555002A24FE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5EB30AA161EC555002A24FE /* Default@2x.png */; };
+		D5EB30AD161EC555002A24FE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5EB30AC161EC555002A24FE /* Default-568h@2x.png */; };
+		D5EB30B0161EC555002A24FE /* PHFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EB30AF161EC555002A24FE /* PHFViewController.m */; };
+		D5EB30B3161EC555002A24FE /* PHFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5EB30B1161EC555002A24FE /* PHFViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D5EB3092161EC555002A24FE /* PHFArrayComparator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PHFArrayComparator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5EB3096161EC555002A24FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D5EB3098161EC555002A24FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D5EB309A161EC555002A24FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D5EB309E161EC555002A24FE /* PHFArrayComparator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PHFArrayComparator-Info.plist"; sourceTree = "<group>"; };
+		D5EB30A0161EC555002A24FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D5EB30A2161EC555002A24FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5EB30A4161EC555002A24FE /* PHFArrayComparator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PHFArrayComparator-Prefix.pch"; sourceTree = "<group>"; };
+		D5EB30A5161EC555002A24FE /* PHFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHFAppDelegate.h; sourceTree = "<group>"; };
+		D5EB30A6161EC555002A24FE /* PHFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHFAppDelegate.m; sourceTree = "<group>"; };
+		D5EB30A8161EC555002A24FE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D5EB30AA161EC555002A24FE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D5EB30AC161EC555002A24FE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D5EB30AE161EC555002A24FE /* PHFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHFViewController.h; sourceTree = "<group>"; };
+		D5EB30AF161EC555002A24FE /* PHFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHFViewController.m; sourceTree = "<group>"; };
+		D5EB30B2161EC555002A24FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PHFViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5EB308F161EC555002A24FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5EB3097161EC555002A24FE /* UIKit.framework in Frameworks */,
+				D5EB3099161EC555002A24FE /* Foundation.framework in Frameworks */,
+				D5EB309B161EC555002A24FE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5EB3087161EC555002A24FE = {
+			isa = PBXGroup;
+			children = (
+				D5EB309C161EC555002A24FE /* PHFArrayComparator */,
+				D5EB3095161EC555002A24FE /* Frameworks */,
+				D5EB3093161EC555002A24FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5EB3093161EC555002A24FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5EB3092161EC555002A24FE /* PHFArrayComparator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5EB3095161EC555002A24FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5EB3096161EC555002A24FE /* UIKit.framework */,
+				D5EB3098161EC555002A24FE /* Foundation.framework */,
+				D5EB309A161EC555002A24FE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5EB309C161EC555002A24FE /* PHFArrayComparator */ = {
+			isa = PBXGroup;
+			children = (
+				D5EB30A5161EC555002A24FE /* PHFAppDelegate.h */,
+				D5EB30A6161EC555002A24FE /* PHFAppDelegate.m */,
+				D5EB30AE161EC555002A24FE /* PHFViewController.h */,
+				D5EB30AF161EC555002A24FE /* PHFViewController.m */,
+				D5EB30B1161EC555002A24FE /* PHFViewController.xib */,
+				D5EB309D161EC555002A24FE /* Supporting Files */,
+			);
+			path = PHFArrayComparator;
+			sourceTree = "<group>";
+		};
+		D5EB309D161EC555002A24FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5EB309E161EC555002A24FE /* PHFArrayComparator-Info.plist */,
+				D5EB309F161EC555002A24FE /* InfoPlist.strings */,
+				D5EB30A2161EC555002A24FE /* main.m */,
+				D5EB30A4161EC555002A24FE /* PHFArrayComparator-Prefix.pch */,
+				D5EB30A8161EC555002A24FE /* Default.png */,
+				D5EB30AA161EC555002A24FE /* Default@2x.png */,
+				D5EB30AC161EC555002A24FE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5EB3091161EC555002A24FE /* PHFArrayComparator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5EB30B6161EC555002A24FE /* Build configuration list for PBXNativeTarget "PHFArrayComparator" */;
+			buildPhases = (
+				D5EB308E161EC555002A24FE /* Sources */,
+				D5EB308F161EC555002A24FE /* Frameworks */,
+				D5EB3090161EC555002A24FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PHFArrayComparator;
+			productName = PHFArrayComparator;
+			productReference = D5EB3092161EC555002A24FE /* PHFArrayComparator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5EB3089161EC555002A24FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PHF;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Philipe Fatio";
+			};
+			buildConfigurationList = D5EB308C161EC555002A24FE /* Build configuration list for PBXProject "PHFArrayComparator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D5EB3087161EC555002A24FE;
+			productRefGroup = D5EB3093161EC555002A24FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5EB3091161EC555002A24FE /* PHFArrayComparator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5EB3090161EC555002A24FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5EB30A1161EC555002A24FE /* InfoPlist.strings in Resources */,
+				D5EB30A9161EC555002A24FE /* Default.png in Resources */,
+				D5EB30AB161EC555002A24FE /* Default@2x.png in Resources */,
+				D5EB30AD161EC555002A24FE /* Default-568h@2x.png in Resources */,
+				D5EB30B3161EC555002A24FE /* PHFViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5EB308E161EC555002A24FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5EB30A3161EC555002A24FE /* main.m in Sources */,
+				D5EB30A7161EC555002A24FE /* PHFAppDelegate.m in Sources */,
+				D5EB30B0161EC555002A24FE /* PHFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D5EB309F161EC555002A24FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5EB30A0161EC555002A24FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D5EB30B1161EC555002A24FE /* PHFViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5EB30B2161EC555002A24FE /* en */,
+			);
+			name = PHFViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5EB30B4161EC555002A24FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D5EB30B5161EC555002A24FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5EB30B7161EC555002A24FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PHFArrayComparator/PHFArrayComparator-Prefix.pch";
+				INFOPLIST_FILE = "PHFArrayComparator/PHFArrayComparator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D5EB30B8161EC555002A24FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PHFArrayComparator/PHFArrayComparator-Prefix.pch";
+				INFOPLIST_FILE = "PHFArrayComparator/PHFArrayComparator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5EB308C161EC555002A24FE /* Build configuration list for PBXProject "PHFArrayComparator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5EB30B4161EC555002A24FE /* Debug */,
+				D5EB30B5161EC555002A24FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5EB30B6161EC555002A24FE /* Build configuration list for PBXNativeTarget "PHFArrayComparator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5EB30B7161EC555002A24FE /* Debug */,
+				D5EB30B8161EC555002A24FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5EB3089161EC555002A24FE /* Project object */;
+}
