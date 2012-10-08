@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D54A568B1622BCD900CC244B /* PHFTablesController.m in Sources */ = {isa = PBXBuildFile; fileRef = D54A568A1622BCD900CC244B /* PHFTablesController.m */; };
+		D54A568E1622C19300CC244B /* PHFSectionsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D54A568D1622C19300CC244B /* PHFSectionsController.m */; };
+		D54A56911622D48300CC244B /* PHFSectionsAndRowsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D54A56901622D48200CC244B /* PHFSectionsAndRowsController.m */; };
+		D57F456D162304510085A212 /* PHFArrayComparator.m in Sources */ = {isa = PBXBuildFile; fileRef = D57F456C162303980085A212 /* PHFArrayComparator.m */; };
 		D5EB3097161EC555002A24FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EB3096161EC555002A24FE /* UIKit.framework */; };
 		D5EB3099161EC555002A24FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EB3098161EC555002A24FE /* Foundation.framework */; };
 		D5EB309B161EC555002A24FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EB309A161EC555002A24FE /* CoreGraphics.framework */; };
@@ -16,11 +20,18 @@
 		D5EB30A9161EC555002A24FE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D5EB30A8161EC555002A24FE /* Default.png */; };
 		D5EB30AB161EC555002A24FE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5EB30AA161EC555002A24FE /* Default@2x.png */; };
 		D5EB30AD161EC555002A24FE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5EB30AC161EC555002A24FE /* Default-568h@2x.png */; };
-		D5EB30B0161EC555002A24FE /* PHFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EB30AF161EC555002A24FE /* PHFViewController.m */; };
-		D5EB30B3161EC555002A24FE /* PHFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5EB30B1161EC555002A24FE /* PHFViewController.xib */; };
+		D5EB30B0161EC555002A24FE /* PHFRowsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EB30AF161EC555002A24FE /* PHFRowsController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D54A56891622BCD900CC244B /* PHFTablesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHFTablesController.h; sourceTree = "<group>"; };
+		D54A568A1622BCD900CC244B /* PHFTablesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHFTablesController.m; sourceTree = "<group>"; };
+		D54A568C1622C19300CC244B /* PHFSectionsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHFSectionsController.h; sourceTree = "<group>"; };
+		D54A568D1622C19300CC244B /* PHFSectionsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHFSectionsController.m; sourceTree = "<group>"; };
+		D54A568F1622D48200CC244B /* PHFSectionsAndRowsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHFSectionsAndRowsController.h; sourceTree = "<group>"; };
+		D54A56901622D48200CC244B /* PHFSectionsAndRowsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHFSectionsAndRowsController.m; sourceTree = "<group>"; };
+		D57F456B162303980085A212 /* PHFArrayComparator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PHFArrayComparator.h; path = ../../PHFArrayComparator.h; sourceTree = "<group>"; };
+		D57F456C162303980085A212 /* PHFArrayComparator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PHFArrayComparator.m; path = ../../PHFArrayComparator.m; sourceTree = "<group>"; };
 		D5EB3092161EC555002A24FE /* PHFArrayComparator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PHFArrayComparator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5EB3096161EC555002A24FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D5EB3098161EC555002A24FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -34,9 +45,8 @@
 		D5EB30A8161EC555002A24FE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		D5EB30AA161EC555002A24FE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		D5EB30AC161EC555002A24FE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		D5EB30AE161EC555002A24FE /* PHFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHFViewController.h; sourceTree = "<group>"; };
-		D5EB30AF161EC555002A24FE /* PHFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHFViewController.m; sourceTree = "<group>"; };
-		D5EB30B2161EC555002A24FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PHFViewController.xib; sourceTree = "<group>"; };
+		D5EB30AE161EC555002A24FE /* PHFRowsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHFRowsController.h; sourceTree = "<group>"; };
+		D5EB30AF161EC555002A24FE /* PHFRowsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHFRowsController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +93,19 @@
 		D5EB309C161EC555002A24FE /* PHFArrayComparator */ = {
 			isa = PBXGroup;
 			children = (
+				D57F456B162303980085A212 /* PHFArrayComparator.h */,
+				D57F456C162303980085A212 /* PHFArrayComparator.m */,
 				D5EB30A5161EC555002A24FE /* PHFAppDelegate.h */,
 				D5EB30A6161EC555002A24FE /* PHFAppDelegate.m */,
-				D5EB30AE161EC555002A24FE /* PHFViewController.h */,
-				D5EB30AF161EC555002A24FE /* PHFViewController.m */,
-				D5EB30B1161EC555002A24FE /* PHFViewController.xib */,
+				D5EB30AE161EC555002A24FE /* PHFRowsController.h */,
+				D5EB30AF161EC555002A24FE /* PHFRowsController.m */,
 				D5EB309D161EC555002A24FE /* Supporting Files */,
+				D54A56891622BCD900CC244B /* PHFTablesController.h */,
+				D54A568A1622BCD900CC244B /* PHFTablesController.m */,
+				D54A568C1622C19300CC244B /* PHFSectionsController.h */,
+				D54A568D1622C19300CC244B /* PHFSectionsController.m */,
+				D54A568F1622D48200CC244B /* PHFSectionsAndRowsController.h */,
+				D54A56901622D48200CC244B /* PHFSectionsAndRowsController.m */,
 			);
 			path = PHFArrayComparator;
 			sourceTree = "<group>";
@@ -163,7 +180,6 @@
 				D5EB30A9161EC555002A24FE /* Default.png in Resources */,
 				D5EB30AB161EC555002A24FE /* Default@2x.png in Resources */,
 				D5EB30AD161EC555002A24FE /* Default-568h@2x.png in Resources */,
-				D5EB30B3161EC555002A24FE /* PHFViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +192,11 @@
 			files = (
 				D5EB30A3161EC555002A24FE /* main.m in Sources */,
 				D5EB30A7161EC555002A24FE /* PHFAppDelegate.m in Sources */,
-				D5EB30B0161EC555002A24FE /* PHFViewController.m in Sources */,
+				D5EB30B0161EC555002A24FE /* PHFRowsController.m in Sources */,
+				D54A568B1622BCD900CC244B /* PHFTablesController.m in Sources */,
+				D54A568E1622C19300CC244B /* PHFSectionsController.m in Sources */,
+				D54A56911622D48300CC244B /* PHFSectionsAndRowsController.m in Sources */,
+				D57F456D162304510085A212 /* PHFArrayComparator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +209,6 @@
 				D5EB30A0161EC555002A24FE /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		D5EB30B1161EC555002A24FE /* PHFViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D5EB30B2161EC555002A24FE /* en */,
-			);
-			name = PHFViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -293,6 +305,7 @@
 				D5EB30B8161EC555002A24FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
