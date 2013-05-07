@@ -1,5 +1,10 @@
 # PHFArrayComparator
 
+Easily animate table changes. This animation shows a two table views side by
+side, the left one does not use animations while the right one does.
+
+![demo](demo.gif)
+
 This little class is intended to be used with `UITableView` and other collection
 like views.  It's purpose is to facilitate the smooth update of displayed data.
 It does that by telling you what is gone, what moved, and what is new in the
