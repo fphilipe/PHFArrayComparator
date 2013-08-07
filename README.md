@@ -1,6 +1,6 @@
 # PHFArrayComparator
 
-Easily animate table changes. This animation shows a two table views side by
+Easily animate table changes. This animation shows two table views side by
 side, the left one does not use animations while the right one does.
 
 ![demo](demo.gif)
