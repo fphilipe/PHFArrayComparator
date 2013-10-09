@@ -66,3 +66,7 @@ For full working examples, have a look at the Xcode project in `Examples/`.
 
 Philipe Fatio ([@fphilipe](http://twitter.com/fphilipe))
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/fphilipe/phfarraycomparator/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
